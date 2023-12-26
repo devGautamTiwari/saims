@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact us - SAIMS</title>
+		<script src="./components/index.js" type="module" defer></script>
+		<common-head></common-head>
+	</head>
+	<body>
+		<custom-header></custom-header>
+		<main class="py-16 px-4">
+			<div class="wrapper flex">
+				<div class="mx-auto w-full max-w-lg">
+					<div class="font-bold text-4xl">Contact us</div>
+					<form class="flex flex-col gap-6" autocomplete="off">
+						<div class="flex flex-col gap-4"></div>
+						<div class="flex flex-col">
+							<label for="name" class="opacity-70"
+								>Your name</label
+							>
+							<input
+								type="text"
+								name="name"
+								id="name"
+								placeholder="John Doe"
+								class="border border-gray-300 rounded-md p-2"
+							/>
+						</div>
+						<div class="flex flex-col">
+							<label for="email" class="opacity-70"
+								>Your email</label
+							>
+							<input
+								type="email"
+								name="email"
+								id="email"
+								placeholder="johndoe@example.com"
+								class="border border-gray-300 rounded-md p-2"
+							/>
+						</div>
+						<div class="flex flex-col">
+							<label for="subject" class="opacity-70"
+								>Your Subject</label
+							>
+							<input
+								type="text"
+								name="subject"
+								id="subject"
+								placeholder="I want to take admission in your college"
+								class="border border-gray-300 rounded-md p-2"
+							/>
+						</div>
+						<div class="flex flex-col">
+							<label for="message" class="opacity-70"
+								>Your message</label
+							>
+							<textarea
+								name="message"
+								id="message"
+								cols="30"
+								rows="10"
+								placeholder="Message"
+								maxlength="500"
+								class="border border-gray-300 rounded-md p-2"
+							></textarea>
+						</div>
+						<button
+							type="submit"
+							class="bg-blue-700 text-white border border-transparent rounded-md py-2 px-5 hover:bg-blue-800 transition duration-200 ease-in-out"
+						>
+							Submit
+						</button>
+					</form>
+				</div>
+			</div>
+		</main>
+		<custom-footer></custom-footer>
+	</body>
+</html>
