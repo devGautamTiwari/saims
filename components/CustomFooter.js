@@ -5,11 +5,11 @@ class Footer extends HTMLElement {
     <footer class="bg-blue-900 text-white pt-16 pb-12 px-4">
         <div class="wrapper">
             <div class="flex flex-col gap-2">
-                <div class="text-xl font-extrabold"><a href="/">SAIMS</a></div>
+                <div class="text-xl font-extrabold"><a href="./">SAIMS</a></div>
                 <div class="text-gray-300">
                     <ul>
-                        <li><a href="/about.html">About</a></li>
-                        <li><a href="/contact.html">Contact Us</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
