@@ -6,7 +6,7 @@ class Footer extends HTMLElement {
         <div class="wrapper">
             <div class="flex flex-col gap-2">
                 <div class="text-xl font-extrabold"><a href="./">SAIMS</a></div>
-                <div class="text-gray-300">
+                <div class="text-blue-200">
                     <ul>
                         <li><a href="./about.html">About</a></li>
                         <li><a href="./contact.html">Contact Us</a></li>

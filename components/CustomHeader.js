@@ -7,8 +7,8 @@ class Header extends HTMLElement {
             <nav class="flex justify-between items-center">
                 <div class="text-3xl text-white font-black"><a href="./">SAIMS</a></div>
                 <ul class="flex gap-4">
-                <li class="text-gray-300 font-medium"><a href="./about.html">About</a></li>
-                <li class="text-gray-300 font-medium"><a href="./contact.html">Contact us</a></li>
+                <li class="text-blue-200 font-medium"><a href="./about.html">About</a></li>
+                <li class="text-blue-200 font-medium"><a href="./contact.html">Contact us</a></li>
                 </ul>
             </nav>
         </div>
